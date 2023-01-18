@@ -4,6 +4,9 @@ private:
     float Density;
     double AreaStrength;
     float BreakingStrength;
+    const int SPAN = 120;
+    float ForcePerArea;
+    float DoFormula();
 public:
     float Hight;
     float Width;

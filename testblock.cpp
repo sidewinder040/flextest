@@ -1,4 +1,5 @@
 #include "testblock.h"
+#include <cmath>
 
 float testblock::GetDensity() {
     // double mmCubed = (Width * Hight * Lenght); // cubed centimeters
@@ -6,12 +7,16 @@ float testblock::GetDensity() {
 }
 
 double testblock::GetAreaStrength() {
-    return 10.0;
+    return ForcePerArea;
 }
     
 void testblock::SetBreakingStrength(float breakingStrength) {
     BreakingStrength = breakingStrength;
-    // TODO: Do FBS Formula
+    DoFormula();
+}
+
+float testblock::DoFormula() {
+    ForcePerArea = 1000*((3* BreakingStrength * SPAN)/ (2.0 * Width * pow(Hight, 2)));
 }
 
 testblock::testblock(/* args */)
