@@ -2,8 +2,8 @@
 #include <cmath>
 
 float testblock::GetDensity() {
-    // double mmCubed = (Width * Hight * Lenght); // cubed centimeters
-    return  (Weight / (Width * Hight * Lenght)) * 1000000; // m cubed per Kilogram 
+    // double mmCubed = (Width * Height * Lenght); // cubed centimeters
+    return  (Weight / (Width * Height * Lenght)) * 1000000; // m cubed per Kilogram 
 }
 
 double testblock::GetAreaStrength() {
@@ -15,8 +15,8 @@ void testblock::SetBreakingStrength(float breakingStrength) {
     DoFormula();
 }
 
-float testblock::DoFormula() {
-    ForcePerArea = 1000*((3* BreakingStrength * SPAN)/ (2.0 * Width * pow(Hight, 2)));
+void testblock::DoFormula() {
+    ForcePerArea = (3* (1000 * BreakingStrength) * SPAN)/ (2.0 * Width * pow(Height, 2));
 }
 
 testblock::testblock(/* args */)

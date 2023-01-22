@@ -6,9 +6,9 @@ private:
     float BreakingStrength;
     const int SPAN = 120;
     float ForcePerArea;
-    float DoFormula();
+    void DoFormula();
 public:
-    float Hight;
+    float Height;
     float Width;
     float Lenght;
     int Weight;
