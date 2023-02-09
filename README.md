@@ -3,7 +3,7 @@ ___
 
 * ## A command-line application to calculate Flexural Bending Strength in accordance with BS EN1433 standard.
 
-* ## Simply execute and and follow the promps to input test data.
+* ## Simply execute and and follow the prompts to input test data.
 
 Written in C++, with an executable size of 27k.
 
