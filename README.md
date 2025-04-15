@@ -14,4 +14,4 @@ Requirements: GCC, CMake and Ninja.
 ### TO DO
 - [ ] Input validation and error handling.
 - [ ] Command-line option to format output as CSV compatable (for copy/paste into a CSV file).
-- [ ] Create a GTK GUI.
+- [ ] Create a Windows GUI.
