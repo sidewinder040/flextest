@@ -3,3 +3,5 @@ flexbuild
 build/*
 tasks.json
 Notes/*
+.vscode/*
+.vscode/launch.json
