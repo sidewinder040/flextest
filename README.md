@@ -15,3 +15,10 @@ Requirements: GCC, CMake and Ninja.
 - [ ] Input validation and error handling.
 - [ ] Command-line option to format output as CSV compatable (for copy/paste into a CSV file).
 - [ ] Create a Windows GUI.
+
+
+Auth Test - T450
+
+
+
+
