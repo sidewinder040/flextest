@@ -17,7 +17,6 @@ Requirements: GCC, CMake and Ninja.
 - [ ] Create a Windows GUI.
 
 
-Auth Test - Dell
 
 
 
