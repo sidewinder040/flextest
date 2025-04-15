@@ -17,7 +17,7 @@ Requirements: GCC, CMake and Ninja.
 - [ ] Create a Windows GUI.
 
 
-Auth Test - T450
+Auth Test - Dell
 
 
 
